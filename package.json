@@ -15,5 +15,8 @@
 	"bugs": {
 		"url": "https://github.com/DeltaZsnes/MySite/issues"
 	},
-	"homepage": "https://github.com/DeltaZsnes/MySite#readme"
+	"homepage": "https://github.com/DeltaZsnes/MySite#readme",
+	"dependencies": {
+		"angular": "^1.7.8"
+	}
 }
