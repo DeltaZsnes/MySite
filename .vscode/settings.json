@@ -3,5 +3,6 @@
 	"editor.insertSpaces": false,
 	"prettier.tabWidth": 4,
 	"prettier.trailingComma": "all",
-	"prettier.useTabs": true
+	"prettier.useTabs": true,
+	"prettier.disableLanguages": ["html"]
 }

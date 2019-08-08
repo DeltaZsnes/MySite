@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"serve": "serve"
 	},
 	"repository": {
 		"type": "git",
@@ -17,6 +17,7 @@
 	},
 	"homepage": "https://github.com/DeltaZsnes/MySite#readme",
 	"dependencies": {
-		"angular": "^1.7.8"
+		"angular": "^1.7.8",
+		"serve": "^11.1.0"
 	}
 }
