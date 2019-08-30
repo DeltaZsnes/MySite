@@ -9,3 +9,14 @@ the reason why is because enumeration attacks are a security threat against your
 you cant add guid afterhand because the id is already in use by many other systems and customers.
 
 future proof yourself by always include guid
+
+lose of performance is of small concern compared to the loss of security
+
+what guid should you use?
+as long as it protects against enumeration attacks it is fine.
+
+should a guid be used as a shareable link?
+no a sharable link generator should keep track of map between outside and internal links.
+however the guid-link should work aswell.
+the reason why is because a guid-link is typically too long for humans to understand and shows no hint to what it links to.
+the sharable links should be generated before it is displayed to the user
