@@ -1,0 +1,64 @@
+seo
+search-engine-optimization
+
+SPA single-page-application
+MPA multi-page-application
+
+url routing should make sure that when a client jumps in to a page a request is sent.
+robots will pick up on the traffic and index the site
+
+example https://example.com/#news will not send a request to the server and the user will stay on the root page
+example https://example.com/news will send a request to the server and robots will pick up on the traffic.
+	hmm actually if robots pick up on the traffic either way right?
+	
+example https://example.com/#!news
+	deprecated by google and bing
+	google and bing would miss these pages sometimes but not always
+	
+using hash and bang #! also means that you will always be directed to the root page and cannot be redirected to another page in
+	in the future you might decided to split your app from a SPA to a MPA due to reasons (idk ^^)
+	which will be made impossible since it also affects the root page and pages dependant on the root page
+	
+	
+so instead use Clean Urls best recommendation any bot and any crawler understands this
+	example https://example.com/news?search=economy&from=2018
+	in HTML5 use the history pushState function
+	
+links should be simple to make it easy for crawlers to find them
+	<a href="/news?search=economy" /> much better all crawlers support this
+	<button onclick="{{document.location='/news?search=economy'}}"></button> weak crawlers will miss this
+	interesting fact is if the button modifies the data for example
+	<button onclick="{{delete(data.item)}}"></button>
+	this implies that the crawler should not press it. or i supposed a crawler should not have access to it in the first place.
+	
+google and bing robot crawlers are lazy users
+	if the site content is loaded only on user interaction the the crawlers arent going to bother with that.
+	content that requires several steps of navigation is de-valued / de-ranked because the search engines dont want to inconvencience their users.
+	
+test using a simple search engine simulator
+	https://totheweb.com/learning_center/tools-search-engine-simulator/
+	
+	http://www.googlebot.com/bot.html
+
+content are ranked highest <--- make sure it is loaded immedietly
+titles are important
+meta are sort of used
+	
+relevant - sites that are more releveant in search according to TF-IDF are ranked higher
+speed - sites that are slow and unresponsive are de-ranked. not indexed after 5s.
+community sites that are linked to from other sites are ranked higher
+
+Conclusion MPA has the best SEO
+	Recommended use pure vanilla HTML/CSS for instant page loading.
+	Only use javascript for google-user-analytics and advertisement
+	Crawlers can disable all javascript and focus on the HTML
+	Low-Memory-Usage since there is almost no javascript
+	
+If you still want use SPA then
+	Use <a href> links for all navigation
+	The content should be loaded immediatly
+	The title should be interesting too
+	The meta should update too.
+	The memory usage should be low. Some crawlers will blow up their memory and crash.
+	
+	
