@@ -1,0 +1,11 @@
+guid
+id
+
+rule always include both id and guid in database tables
+remove it in special cases where it sinks the performance
+
+the reason why is because enumeration attacks are a security threat against your publicly exposed api.
+
+you cant add guid afterhand because the id is already in use by many other systems and customers.
+
+future proof yourself by always include guid
