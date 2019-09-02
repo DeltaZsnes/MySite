@@ -1,0 +1,16 @@
+the concept of immutability comes from functional programming paradigm
+
+immutability means the objects cannot be modified
+however it can be read and copied
+
+thread safe
+race conditions?
+this leads to easier code
+however what order is the code?
+
+over engeering
+too much effort?
+
+mutation history
+https://en.wikipedia.org/wiki/Immutable_object
+immutability is a compile time language protection ensure there is no mutation history
