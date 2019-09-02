@@ -1,0 +1,10 @@
+when used well abstractions save you time from repetetive tasks
+when used poorly abstractions create time consuming complexity and bugs that are hard to debug and for new developers to grasp
+
+bad examples
+	new keywords and concepts
+		generator yield async await
+		
+good example 
+
+
