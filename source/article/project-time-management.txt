@@ -1,0 +1,17 @@
+in every project there is a problem with time-management
+
+in every project requirements changes
+
+how likely is the requirements to change
+	build a quick iteration
+	dont invest in details
+	
+always work iterativly dont do waterful
+
+even if the customer says that they want exactly that the requirements will change
+
+some developers are exteremly stubborn about following requirements to point
+
+some developers make money out of wasting time and money and fulfilling contracts and are fine with unhappy customers
+
+

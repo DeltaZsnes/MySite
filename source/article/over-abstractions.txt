@@ -7,4 +7,23 @@ bad examples
 		
 good example 
 
+junior developers
+senior developers
 
+function call
+imagine that calling function fx() causes a bug and that you know it is releated to fx()
+
+file
+	fx(f1(f2(f3(f4())))) => bug
+
+file...
+	f?()
+file1
+	f1()
+file2
+	f2()
+file3
+	f3() => bug
+	which of all the previous
+
+each of these
