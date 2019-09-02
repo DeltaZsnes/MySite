@@ -67,3 +67,15 @@ this makes it diffucult to refactor and reorder
 pure functions
 that does not mutate the input
 returns a copy
+
+ram memory requirements increases when all the functions in the entire code bases must copy the data instead of refernece it since it is immutable.
+its not a problem when only a single program is running on a machine.
+but when the program is running in an eco system that is full of other programs hogging memory using the same filosofi as yours then that is becoming a memory problem.
+browsers will crash and restart than annoy the users that it lost all its tabs. servers will crash and restart and annoy all the users who were in the middle of some transaction or browsing around losing their session.
+
+
+conclusion still positive of functional programming
+the extra ram and memory overhead is a small cost compared to
+	the complexity of object oriented programming as the code base grows in size
+	the greatly lowered time cost of writing unit-tests
+	
