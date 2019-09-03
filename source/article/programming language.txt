@@ -1,0 +1,133 @@
+--- Language features that are great for performance or clarity ---
+
+C
+	DataTypes int32, int64, float32, float64
+
+C++
+	compiled
+	mixed objects and namespaces
+
+C#
+	var implicit type
+	async await throw
+
+Java
+	
+
+JavaScript
+	import
+	catch
+	destructoring
+		var r = { a, b }
+		var { a, b } = r
+
+TypeScript
+	any explicit way to say any type
+
+Golang
+	defer
+
+
+--- Language features that are bad for performance or clarity ---
+
+C#
+	try/catch forces the code to be wrapped and indented before commit, also slightly annoying to write.
+
+Java
+	hierarchal package structures are com.se.company terrible
+	only objects
+	abstract, inheritance, polymorphism
+	singletons
+	public, private
+
+Functional programming
+  + improved testability
+  - problematic to refactor?
+  - requires more time and energy for the programmer
+  - promise chains requires extra cpu overhead
+  - naming the functions is not easy sometimes
+
+
+Cause of random lag is when the computer moves to RAM memory swap to disk.
+
+
+async/await
+  + sequential logic flow
+  + reduced pyramid codes
+  + scalable
+  - try/catch blocks
+  - promises is still needed
+  - confusing when to use async/await vs promises
+  - sometimes confusing when to use await
+
+promises
+  + parallel
+  + scalable
+  - pyramid code with many indentations
+
+callback
+  + simplicity
+  - bad error flow leads to callback hell
+  - callback hell makes the code unscalable
+
+Java
+  - Slow IDE and tools
+  - Slow end product
+  - Abstract and confusing code
+  - Too many developers who belive this is the best shit ever
+
+C# .Net
+  + Secure. Packages are signed by actual companies
+  + Standardized solution
+  + TypeSafe
+  + CodeCompletion
+  + Strong standard libraries
+  - Inflexible
+  - DataModel remapping takes up 25% of your time
+  - Too many developers who belive this is the best shit ever
+
+NodeJS
+  + Democracy
+  + Versatile solutions
+  + Less need to remap data models
+  - Chaotic due to democracy
+  - Run the code to check if it is wrong
+  - Type confusion
+  - Weak standard libraries
+  - Too many developers who belive this is the best shit ever
+
+AngularJS
+  + JS only allows for full synergy
+  + Scopes are convienent
+  + Directives
+  - very steep learning curve. requires a higher intelligence and patience just to learn it.
+  - scopes can be confusing and cause bugs
+
+AngularTS
+  + TS allows typing
+  + Scopes are convienent
+  + Directives
+  + TS allows for code completion and type safety
+  - very steep learning curve. requires a higher intelligence and patience just to learn it. suitable for product companies.
+  - scopes can be confusing and cause bugs
+
+ReactJSX
+  + functional programming, no need for MVC bullshit
+  + nice with HTML and JS in JSX
+  - redux store dispatch
+  ? similar to PHP with escaping
+  - iterating arrays
+  - key attributes do not always exists
+  - harder to debug since you cant follow the errors from the browser to the code
+  - immutable state, writing the code is inconvenient
+  - you must use arrow functions to bind the this keyword, this causes complications
+  - lots of warnings and error message from incompatible ui-library's
+  - contextTypes is dependency injection in disguise
+  - redux to solve shared state with immutable memory
+  - context to solve shared state actually why not?
+  - redux race conditions caused by shared memory
+  - redux rendering events
+  - weak support for poly-fills, difficult to troubleshoot IE problems.
+  - any state change caused by dispatch or typing in a text field causes a full re render of all components visible causing a re-computation of the shadow-dom.
+  - eslint is a requirement for managing code readability.
+  - immutable is difficult to figure out the type and methods should be used
