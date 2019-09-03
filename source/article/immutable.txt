@@ -1,0 +1,21 @@
+the concept of immutability comes from functional programming paradigm
+
+immutability means the objects cannot be modified
+however it can be read and copied
+
+thread safe
+race conditions?
+this leads to easier code
+however what order is the code?
+
+over engeering
+too much effort?
+
+mutation history
+https://en.wikipedia.org/wiki/Immutable_object
+immutability is a compile time language protection ensure there is no mutation history
+
+D has an interesting property called immutable vs const
+
+might have been better to have a new function type called pure functions that the language defines as a function that cannot modify mutate state and
+can only return a new object
