@@ -1,0 +1,9 @@
+
+
+TRANSITION instead of PATCH / UPDATE
+	Transition StoredState from Existing to Modified
+
+Create
+GetById
+List
+Transition
