@@ -7,3 +7,8 @@ Create
 GetById
 List
 Transition
+
+
+Always Id
+Always Log for Create & Modify to the database
+Log needs Id +Message + Datetime?
