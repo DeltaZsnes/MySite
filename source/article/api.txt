@@ -12,3 +12,7 @@ Transition
 Always Id
 Always Log for Create & Modify to the database
 Log needs Id +Message + Datetime?
+
+Enums should be text not Id
+	To avoid communication errors when frontenders write code to the backend its too easy to get 1 digit wrong and makes it difficult for them to debug network message.
+	They could send it in compiled binary but it would be to time-inefficient for frontenders.
