@@ -1,0 +1,2 @@
+the full page must rerender for every click to the page
+a single failed sql query will throw an exception and cause the entire page to fail
