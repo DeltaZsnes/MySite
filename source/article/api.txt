@@ -16,3 +16,18 @@ Log needs Id +Message + Datetime?
 Enums should be text not Id
 	To avoid communication errors when frontenders write code to the backend its too easy to get 1 digit wrong and makes it difficult for them to debug network message.
 	They could send it in compiled binary but it would be to time-inefficient for frontenders.
+
+Pagination - Number
+Skip number of items skipped
+Take number of items to take per page and return in this request
+Hits number of items matching the search query
+Data the items
+
+Pagination - Token
+SkipToken next skip id
+Take number of items to take
+Hits number of items matching the search query
+Data the items
+
+The response should contain pagination data.
+Returning the data in headers is quite common as long as it is not related to the data but is bad practise since it typcially has no type-safety.
