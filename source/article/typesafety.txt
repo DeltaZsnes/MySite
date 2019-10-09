@@ -1,0 +1,13 @@
+Typesafety
+
+Why ditch typesafety
+
+For many projects and business iteration speed and development speed is the most important factor.
+Time is money and ditching safety in favor of speed is a typical balance call a developer must make everyday.
+
+Even if a project is written in typesafe language such as C#, Java. Developers will often struggle to manage the deadlines and timepressure from management and customers.
+
+Instead the focus is on iteration speeds. Move fast and break things. This more than often also happens in productions which is a major downside to this kind of apparouch. However if the company is a startup breaking things in production is cost nothing at all. And since startups typical have a very chaotic business model, writing code as if it were cemented in stone will backfire on you.
+
+Why have typesafety
+Safety is always better in the long run. Typesafe code is like laying down solid bricks that are used to build highly advanced structures like castles, towers and skyscrapers. Something that some will argue would be impossible without typesafety.
