@@ -1,0 +1,15 @@
+Data Modelling
+
+The model should represent a Conceptual Entity in reality or in the business.
+The business world and reality decideds the terminogy that should be used.
+Your purpose as a developer is to integrate your software into that reality.
+
+Consigner
+Customer
+Inventory
+State InventoryWon
+State Customer is Winner sometimes a seperate storage record must be kept for each state also.
+
+Joined entitys data and relations
+InventoryCustomer. Contains Relational Data To which customer and also additional data born from this join
+InventoryConsigner. Contains Relational Data To which consigner and also additional data born from this join
