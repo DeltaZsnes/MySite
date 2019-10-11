@@ -1,0 +1,12 @@
+reusing code is good until it becomes bad
+high coupling creates a yarn that is very difficult for developers to untangle in the long run
+there it is best to have the approuch to copy code if it becomes more readable and understandable
+
+readability maintainabiliy should be number 1 prioritesed value.
+
+readability
+understandability
+maintainability
+developer-time-cost
+scalability
+runtime-performance
