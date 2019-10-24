@@ -1,0 +1,16 @@
+azure from a developer perspective
+	working with azure is pretty bad.
+	slow manual gui click and find button.
+	weak or difficult scripting with powershell or difficult to find guides.
+	slow to develop to lots of configurations needed for security reasons.
+	provides good job security and payment because not all that many developers want to work with azure but there is alot of businesses with projects and a code base on .Net
+	microsoft tools devops pipelines, tfs, t-sql are missing some fundamental features and are slow
+
+azure from a business perspective
+	creates a dependancy to microsoft.
+	microsoft is reliable no doubt they will support you for decades and provide personel for you aswell
+	decreases risq of an open-source solo hacker stealing your code base and running it on their own servers since azure services are quite difficult to configure actually with secret keys keyvault and urls most hackers will just not bother to learn it, they prefer open-source.
+	decreases the power to Google who is outcompeting the rest of the world
+	personel cost more but is more trust-worthy as they are less likely to just steal your business and develop their own azure infrastructore costs alot of money
+	slow development time cost a lot of money
+	
