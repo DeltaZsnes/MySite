@@ -31,3 +31,15 @@ Data the items
 
 The response should contain pagination data.
 Returning the data in headers is quite common as long as it is not related to the data but is bad practise since it typcially has no type-safety.
+
+
+Left-side. Api should always return Ids
+Right-Side. Api should always return Entitys
+
+The left-side forces the consumer to create many requests to the api something that scales horribly with a growing number users.
+
+The right-side causes to the api to deliver too much data in every request more than it needs to and this wastes time and memory resources causing slow requests.
+
+The correct solution is that the consumer should be able to ask for ids or entitys for exactly the things that it needs.
+
+The consumer has a in memory cache of the entitys and needs them to stay upto date with each request.
