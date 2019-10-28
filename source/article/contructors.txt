@@ -34,3 +34,12 @@ public class LoginController
 Know pitfalls.
 Always use transient life time scope and make sure there is low memory usage.
 Never use singletons, they leads to concurrance issues and race conditions.
+
+When a bug has been introduced in to the code the following list
+The application does not compile
+	Developers will have to fix it to get the application running.
+The application should crashes during startup.
+	Developers will immedietly wonder why it didnt start, fix the problem and restart.
+The application crashes when running the code in production.
+	Developers will have to fix the problem and any legal consequenses that may have occured as a result of the bug.
+	
