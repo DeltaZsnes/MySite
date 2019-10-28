@@ -1,0 +1,33 @@
+constructors
+
+why are they good?
+According to object oriented design, when an object has fulfilled its constructor the object is ready to be used through its public interface, otherwise its internal state may cause exceptions during runtime. if the constructor cannot be fulfilled it will throw an exceptions in the earliest possible stage, which hopefully is when the program is starting. the project can be configured to test initialized all classes.
+
+why are they bad?
+In object oriented projects that are in business today. Classes typically will have 8 or more dependencies as constructor arguments something that was unintended in constructor design but is reality in todays businesses. When writing unit tests this causes time consuming inconvience
+
+my conclusion they should be avoided because according to my values
+ - developer time is more precious than old legacy structure and traditions.
+
+Instead use Depedency Injected Properites
+
+public class LoginController
+{
+	[DI]
+	IAccountService _accountService
+	
+	[DI]
+	IService1 _service1
+	
+	[DI]
+	IService2 _service2
+	
+	[DI]
+	IService3 _service3
+	
+	// NO CONSTRUCTOR
+	
+	// Methods
+}
+	
+	
