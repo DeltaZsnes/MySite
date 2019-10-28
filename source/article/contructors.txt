@@ -31,3 +31,6 @@ public class LoginController
 }
 	
 	
+Know pitfalls.
+Always use transient life time scope and make sure there is low memory usage.
+Never use singletons, they leads to concurrance issues and race conditions.
