@@ -1,0 +1,15 @@
+UI-Bugs
+
+Save button
+	The save button is usually last button down on the page with a long list of form fields
+	
+	Bug1: When save button is pressed twice double requests is created
+		Solution1: Disable the button until the request has finished
+	
+	Bug2: When save is press and validation fails the validation error is display where the user cannot see it because it scrolled too far down
+		Solution1: Use popups to indicate errors
+
+	Bug3: When save button is pressed the requests takes several minutes to complete
+		Solution1: Use a progress popup until request has finished
+		Solution2: Overlay the entire page with a progress overlay
+	
