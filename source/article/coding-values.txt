@@ -26,3 +26,5 @@ Lastly Performance
 The code should be memory / cpu / network intensive. Resources are consumed not just by our application but the ecosystem that our application lives in.
 
 There is no need to micro optimize in advance
+
+Show me evidence that the time doing it that way adds business-value
