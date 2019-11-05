@@ -12,9 +12,10 @@ Testability
 
 We test our code by ourself locally before we let anyone else test it. And we write automated tests when we deem it necessary to do so (See Team Programming Decisions). And we write the code so that it can be tested.
 
-Development time
+Developer time
 
 We are under time pressure to deliver to our future customers
+We need to work in a way that delivers more business-value and less mindgames
 
 Reusability
 
