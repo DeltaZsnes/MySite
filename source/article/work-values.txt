@@ -12,7 +12,11 @@ Time
 
 Trust
 	If we cannot be trusted we will lose business
-	We should work in a way that makes us trust worthy
+	We should work in a way that gains us trust
+	
+Team
+	If we are not a team we cannot succeed
+	We should work in a way that keeps up the team morale and communication
 
 Clarity
 	If we cannot deliver work that other people then we cannot grow our team with new members
@@ -28,7 +32,6 @@ Testability
 
 Reusability
 	If our work is not reusable for the future we will spend unnecessary time and money on redoing the same work over and over again
-	
 	
 Refactorability
 	If we our work cannot be refactored then we cannot improve it.
