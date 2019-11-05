@@ -17,6 +17,10 @@ Developer time
 We are under time pressure to deliver to our future customers
 We need to work in a way that delivers more business-value and less mindgames
 
+Refactorability
+
+We should write code so that it can be refactored in the future but we should not spend time refactoring while doing our task unless we decide to do so as a team.
+
 Reusability
 
 The code should be reusuable for the future but must fulfill above values
