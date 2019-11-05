@@ -1,0 +1,27 @@
+Work values
+
+Anyone can add to this but we cannot remove
+
+Business
+	If we cannot get money we will lose our jobs
+	
+Time
+	If we cannot deliver our work within the our deadlines then we will lose business
+
+Trust
+	If we cannot be trusted we will lose business
+
+Clarity
+	If we cannot deliver work that clearly fulfill business goals then our work cannot be trusted
+
+Evidence
+	If we cannot prove that our ideas will work according to our values and take us to our goals then we should not waste time and money on doing the work
+
+Testability
+	If we cannot test that our work is correct then we cannot know for sure that it is done
+
+Reusability
+	If our work is not reusable for the future we will spend unnecessary time and money on redoing the same work over and over again
+
+Performance
+	If our work is not perfoming well it will leave opportunity for competitors to overtake us
