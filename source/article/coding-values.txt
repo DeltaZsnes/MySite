@@ -1,0 +1,27 @@
+Coding Values and priority list:
+
+Clarity
+
+We are a growing team with different backgrounds and level of experience. The code needs to be readable in english and not to difficult to understand. Higher levels of conceptual abstractions should be avoided unless team has decided its ok with our project context.
+
+Responsiblity
+
+The classes and functions should not do more or less than it is supposed to do. It should preferable not be named God, Manager, Task, Runner, Do, Everything, Stuff, Foo, Bar.
+
+Testability
+
+We test our code by ourself locally before we let anyone else test it. And we write automated tests when we deem it necessary to do so (See Team Programming Decisions). And we write the code so that it can be tested.
+
+Development time
+
+We are under time pressure to deliver to our future customers
+
+Reusability
+
+The code should be reusuable for the future but must fulfill above values
+
+Lastly Performance
+
+The code should be memory / cpu / network intensive. Resources are consumed not just by our application but the ecosystem that our application lives in.
+
+There is no need to micro optimize in advance
