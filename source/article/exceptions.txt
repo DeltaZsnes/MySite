@@ -1,0 +1,14 @@
+Exceptions
+
+
+Bugs
+
+Catching exceptions then throwing exceptions and not including the original exceptions
+	Since the original exception is not included this forces the bug-fixer to rerun the code to figure out what the original exception was. The original exception could be for example a Temporary Network Error, An SQL Syntax Error, An SQL missing column Error.
+	Example Code:
+	Conclusion:
+	
+Throwing exceptions very often.
+	Exceptions have a low performance compared to return a value. Upon profiling the performance-fixer typically replaces it by returning a bool instead.
+	Example Code:
+	Conclusion: You should not write code that throw exceptions for everything.
