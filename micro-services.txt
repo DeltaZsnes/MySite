@@ -15,3 +15,5 @@ Basically the new features should be dependant on previous Base Entity but not t
 
 This poses a problem where the client may have to make multiple network requests to get the Base Entity and all the features
 This also poses a problem where the client wants to filter on multiple features at the same time
+
+GraphQL can solve the first response problem by specifying which features it needs in the response.
