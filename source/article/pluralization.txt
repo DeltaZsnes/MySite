@@ -5,3 +5,7 @@ consumers of apis also have difficult with pluralization further wasting develop
 in refactorable time you can pluralize as much as you want because once a developer spots the error you can fix it immediately
 
 Always enforce sticking to the English language and stop making up words that does not exist. It will just WTF the next developers that on-boards the project. And also all non-english speakers.
+
+For database tables
+They are not containers. Singular naming is similar to a class in Object oriented programming
+The rows are the instances of that class.
