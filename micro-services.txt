@@ -2,9 +2,16 @@ micro services
 
 opposite to monoliths
 
+a monolith is a project code base that produces one unbreakable 
+
 it needs a clear dependency tree without circular dependencies
 
 Example
-Customer should be base entity
-CustomerImage depends on Customer
-Image should be base entity
+Customer should be a base entity //base
+CustomerImage depends on Customer //feature
+Image should be a base entity //base
+
+Basically the new features should be dependant on previous Base Entity but not the other way around
+
+This poses a problem where the client may have to make multiple network requests to get the Base Entity and all the features
+This also poses a problem where the client wants to filter on multiple features at the same time
