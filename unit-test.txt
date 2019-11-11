@@ -1,0 +1,17 @@
+writing unit tests
+	should be more unit tests than integration tests
+	should be easy to write them
+	should be easy to maintain them
+	should be clear and easy to read and understand
+	
+	code should be written testable. however fakers can mitigate most of the dependency problems.
+
+fakers
+	fake()
+	creates a fake version of the service with all dependencies mocked
+	dependencies must have be implementable by the true service and other fakes
+	
+	
+mocks
+	mocks an interface with all method calls with default return values.
+	the mock does nothing and returns only the language defaults
