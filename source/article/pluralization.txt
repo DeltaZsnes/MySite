@@ -1,0 +1,7 @@
+avoid pluralization in non-refactorable code such as database tables and api interfaces
+because people from non-native speaking languages has difficulty understanding pluralization it will cause problems due to language errors and waste developer time
+consumers of apis also have difficult with pluralization further wasting developer time.
+
+in refactorable time you can pluralize as much as you want because once a developer spots the error you can fix it immediately
+
+Always enforce sticking to the English language and stop making up words that does not exist. It will just WTF the next developers that on-boards the project. And also all non-english speakers.
