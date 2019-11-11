@@ -1,0 +1,10 @@
+micro services
+
+opposite to monoliths
+
+it needs a clear dependency tree without circular dependencies
+
+Example
+Customer should be base entity
+CustomerImage depends on Customer
+Image should be base entity
