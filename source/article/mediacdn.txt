@@ -1,0 +1,6 @@
+cloud hosted services for image scaling and transformations
+upload a high res image.
+transform into any dimensions
+
+fast delivery to any part of the world
+who owns the data?
