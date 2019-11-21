@@ -3,11 +3,11 @@ FE
 QA
 PO
 
-CI (I)
-TEST (T)
-QUALITY (Q)
-STAGE (S)
-PROD (P)
+CI (CI)
+TEST (CT)
+QUALITY (CQ)
+STAGE (CS)
+PROD (CP)
 
 Most troublesome is all the secret configs
 Deploys should test that the secret configs during startup instead of failing during feature test
