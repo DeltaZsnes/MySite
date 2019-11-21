@@ -1,0 +1,13 @@
+BE
+FE
+QA
+PO
+
+CI
+TEST
+QUALITY
+STAGE
+PROD
+
+Most troublesome is all the secret configs
+Deploys should test that the secret configs during startup instead of failing during feature test
