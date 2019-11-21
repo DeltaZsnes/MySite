@@ -1,0 +1,21 @@
+micro services
+database?
+application code?
+
+indexed views
+filtering
+pagination
+ordering
+counting
+
+cost in development time
+micro services vs monoliths
+micro services adds 100x the complexity of monoliths
+monolith is 100x faster for startup projects
+micro service engineers are very expensive.
+	since they have extensive domain knowledge and experience
+monolith engineers are very cheap
+	since they have no particular knowledge and experience
+
+rest
+graphql
