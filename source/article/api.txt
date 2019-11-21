@@ -43,3 +43,10 @@ The right-side causes to the api to deliver too much data in every request more 
 The correct solution is that the consumer should be able to ask for ids or entitys for exactly the things that it needs.
 
 The consumer has a in memory cache of the entitys and needs them to stay upto date with each request.
+
+
+Only the consumer of the api knows exactly what it needs
+The producer has no idea what the consumer needs.
+So in Rest the producer divides the complete service into several subsets of service-endpoints
+In graphql the consumer can specifiy exactly what it wants in the request. It is upto the producer to fulfill the request.
+There for the producer can be exteremly efficient and the consumers doesnt need get a bunch of useless data in the response and it doesnt have to wait until the service-subset finishes building which often is rather time consuming.
