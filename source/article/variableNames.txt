@@ -1,0 +1,38 @@
+variable names should describe its purpose in the context
+variable names should describe the purpose in the line where it first occurred
+
+variable be a composition of concepts in the business model
+
+example
+	Inventory
+	Store
+	Auction
+	InventoryStore
+	InventoryAuction
+	AuctionStore
+
+var existing = await _customerService.GetById(1) //gets an existing customer
+existing.FirstName = "Sam"; //mutate the existing
+existing.LastName = "Samson"; //mutate the existing
+await _customerService.Update(existing); //updates the existing with mutations
+
+long variables names are necessary in name spaces where name collision is frequent
+example
+	AuctionInvoiceBuyersPremiumRepository
+	
+average variables names are preferred for readability and clarity
+example
+	CustomerAddress
+
+short variables names are necessary in mathematical formulas to give a good overview of the formula
+example
+	x1 = -p/2 - Sqrt( (p/2) * (p/2) - q );
+	x2 = -p/2 + Sqrt( (p/2) * (p/2) - q );
+
+stick to singular when possible
+	because english language has many words with no plural form
+	especially when writing code that are difficult to correct later
+
+
+
+conclusion there is no silver-bullet and developers who are less skilled will unfortunately not grasp the subtle changes in context
