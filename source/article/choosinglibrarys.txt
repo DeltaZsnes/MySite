@@ -1,0 +1,10 @@
+you should always choose popular libraries
+	because otherwise you will not find additional addons because no one bother making addons to unpopular libraries
+
+you should never pick libraries that are to restrictive
+	because you always need to customize something
+	
+you should always test several libraries before choosing one
+	why would you expect everything to be great just because everyone else says so?
+	
+same goes for platforms and anything else really
