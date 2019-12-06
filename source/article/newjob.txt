@@ -17,3 +17,10 @@ what is our dev-ops pipeline?
 how do we deploy and update our software?
 how do we integrate with existing systems?
 how do users login?
+
+people
+product
+sales
+orders, items, sum total, margin
+taxes, per item, per margin, vat
+invoices orders, taxes
