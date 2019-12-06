@@ -13,6 +13,40 @@ using Moc;
 
 Fakers
 Fakers are have all their dependencies mocked.
+They are only really needed if the constructor has ridiculously many arguments
+
+Example
+public class OrderServiceFaker
+{
+	public Mock<IMarginVatService> MarginVatService { get; set; } = new Mock<IMarginVatService>();
+	public Mock<IOrderRepository> OrderRepository { get; set; } = new Mock<IOrderRepository>();
+	public Mock<IQueueService> QueueService { get; set; } = new Mock<IQueueService>();
+	public Mock<IAuctionInvoiceAdditionalFeeService> AuctionInvoiceAdditionalFeeService { get; set; } = new Mock<IAuctionInvoiceAdditionalFeeService>();
+	public Mock<IAuctionInvoiceBuyersPremiumService> AuctionInvoiceBuyersPremiumService { get; set; } = new Mock<IAuctionInvoiceBuyersPremiumService>();
+	public Mock<IInventoryWonService> InventoryWonService { get; set; } = new Mock<IInventoryWonService>();
+	public Mock<IInventoryItemService> InventoryItemService { get; set; } = new Mock<IInventoryItemService>();
+	public Mock<ITaxCalculatorFactory> TaxCalculatorFactory { get; set; } = new Mock<ITaxCalculatorFactory>();
+	public Mock<IAuthorizedUserService> AuthorizedUserService { get; set; } = new Mock<IAuthorizedUserService>();
+	public Mock<IAuctionPaymentService> AuctionPaymentService { get; set; } = new Mock<IAuctionPaymentService>();
+	public Mock<ICustomerService> CustomerService { get; set; } = new Mock<ICustomerService>();
+
+	public OrderService Fake()
+	{
+		return new OrderService(
+			MarginVatService.Object,
+			OrderRepository.Object,
+			QueueService.Object,
+			AuctionInvoiceAdditionalFeeService.Object,
+			AuctionInvoiceBuyersPremiumService.Object,
+			InventoryWonService.Object,
+			InventoryItemService.Object,
+			TaxCalculatorFactory.Object,
+			AuthorizedUserService.Object,
+			AuctionPaymentService.Object,
+			CustomerService.Object
+		);
+	}
+}
 
 Unit tests should follow a naming standard Given, When, Then
 Given_Customer_When_Update_Then_Ok
