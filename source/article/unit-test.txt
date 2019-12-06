@@ -1,0 +1,18 @@
+Interface
+An interface specifies an abstract contract that the implementation must implement to fulfill the interface
+
+Dependency Injection
+DI injects an implementation
+
+Mocks
+A mock is an empty implementation of an interface.
+It returns all method calls with default values
+It setup and configured to return other return
+
+using Moc;
+
+Fakers
+Fakers are have all their dependencies mocked.
+
+Unit tests should follow a naming standard Given, When, Then
+Given_Customer_When_Update_Then_Ok
