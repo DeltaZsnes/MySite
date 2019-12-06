@@ -1,0 +1,17 @@
+what is the tech-stack?
+what is the tech-stack of legacy software?
+what is the experience of the team?
+understanding the business
+b2b or b2c
+startup-company or product-company
+targeted demographic? where does the money come from
+what competition is in the market?
+how do we compete to competitors?
+what entity concepts exist in our business model?
+what properties does our entity's have?
+what interfaces do we have?
+what automated tests do we have?
+what is our dev-ops pipeline?
+how do we deploy and update our software?
+how do we integrate with existing systems?
+how do users login?
