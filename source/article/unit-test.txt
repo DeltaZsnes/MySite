@@ -16,3 +16,8 @@ Fakers are have all their dependencies mocked.
 
 Unit tests should follow a naming standard Given, When, Then
 Given_Customer_When_Update_Then_Ok
+
+Unit tests should be written
+When there is a bug-fix
+When you have to do some manual testing anyway
+When there is a lot of logical if clauses or regex in the code
